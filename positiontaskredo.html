@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position2redo.html</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .container{
+            position: relative;
+            background-color: blueviolet;
+            background-image: url(background.png);
+            color: white;
+            height: 80vh;
+        }
+        li{
+            display: inline-block;
+            margin: 10px;
+        }
+        .header{
+            position: absolute;
+        }
+        .list1{
+            position: absolute;
+            right: 30%;
+        }
+        .login{
+            position: absolute;
+            right: 10%;
+        }
+        .main h1{
+            position: absolute;
+            top: 120px;
+            left: 30%;
+            text-align: center;
+        }
+        .main p{
+            position: absolute;
+            top: 220px;
+            left: 35%;
+        }
+        .main button{
+            position: absolute;
+            top: 270px;
+            left: 40%;
+            background-color: #ff00bb;
+            border-radius: 75px;
+            height: 50px;
+            color: white;
+            font-weight: bolder;
+        }
+        .backcolor{
+            position: relative;
+            top: 0;
+            background-color: blueviolet;
+            opacity: 0.5;
+            color: white;
+            height: 80vh;
+        }
+        .content{
+            display: flex;
+            position: absolute;
+            left: 100px;
+            border-radius: 0 75px;
+            font-size: 20px;
+            font-weight: bolder;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }  
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="header">
+                <h1><i class="fa-regular fa-gem fa-2xl" style="color: #ff00bb;"></i> Study Course</h1>
+                <p>journey to success</p>
+            </div>
+            <ul class="list1">
+                <li>Home</li>
+                <li>About</li>
+                <li>Courses</li>
+                <li>Pages</li>
+                <li>Contact</li>
+            </ul>
+            <ul class="login">
+                <li>Login</li>
+            </ul>
+        </nav>
+        <div class="main">
+            <h1>50% Discount On All Popular <br>Courses</h1>
+            <p>Take the first step to your journey to success</p>
+            <button>Ready to get started?</button>
+        </div>
+        <div class="backcolor"></div>
+    </div>
+    <div class="content">
+        <figure class="fig1">
+            <img src="aihtm.png" alt="First Image" height="100%" width="300px">
+            <figcaption>Open Programming Courses for <br>everyone: python</figcaption>
+        </figure>
+        <figure class="fig2">
+            <img src="aihtml.jpg" alt="Second Image" height="100%" width="300px">
+            <figcaption>Learning to Write as a clean and <br>Professional Author</figcaption>
+        </figure>
+        <figure class="fig3">
+            <img src="dragon.png" alt="Third Image" height="100%" width="300px">
+            <figcaption>Learn Master JQueary in a short <br>Period of Time</figcaption>
+        </figure>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+body{
+    background-color: blueviolet;
+    color: white;
+}
+.div1{
+    background-image: url(background.png);
+    opacity: 0.5;
+    
+}
+span{
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    font-size: 17px;
+}
+nav .ul1 li {
+    display: inline-block;
+    padding: 14px 10px;
+  }
+nav .ul2 li{
+    display: inline-block;
+    padding: 14px 10px;
+    position: relative;
+    left: 1100px;
+    top: 0px;
+}
