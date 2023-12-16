@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: grey;
+}
+#top1{
+    width: 100%;
+    height: 10vh;
+    background-color: orange;
+}
+#navbar{
+    position: absolute;
+    top: 90px;
+    width: 100%;
+}
+#navbarin{
+    margin: 0 5%;
+}
+#logo{
+    position: relative;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Times New Roman';
+}
+@media (max-width: 952px){
+    #navbarin{
+        margin: 0 3px;
+    }
+    #top1{
+        height: 10px;
+    }
+    #logo{
+        font-size: 1rem;
+        padding-left: 5px;
+    }
+    #dropdown1{
+        visibility: hidden;
+    }
+    #dropdown2{
+        visibility: hidden;
+    }
+    .last i{
+        visibility: hidden;
+    }
+}
+#form{
+    position: absolute;
+    left: 20%;
+}
+#input{
+    width: 40vw;
+    height: 7vh;
+}
+#inputbutton{
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+    background-color: orange;
+    border: none;
+    height: 7vh;
+}
+#dropdown1{
+    position: absolute;
+    right: 24%;
+    list-style: none;
+    font-weight: 20px;
+}
+#dropdown1 a{
+    font-weight: bolder;
+    font-size: 1rem;
+}
+#dropdown1 a:hover{
+    padding: 5px;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+#dropdown2{
+    position: absolute;
+    right: 15%;
+    list-style: none;
+    font-weight: 20px;
+}
+#dropdown2 a{
+    font-weight: bolder;
+    font-size: 1rem;
+}
+#dropdown2 a:hover{
+    padding: 5px;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+#carouselExampleAutoplaying{
+    position: absolute;
+    top: 30vh;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+}
+@media (max-width: 952px){
+    #carouselExampleAutoplaying{
+        position: absolute;
+        top: 30vh;
+        left: 0;
+        right: 0px;
+        width: 98%;
+        margin: 0 5px;
+    }
+}
+.leftcard{
+    position: absolute;
+    top: 30vh;
+    left: 9%;
+    background-color: orangered;
+    height: 60vh;
+    width: 15%;
+    border-radius: 5px;
+}
+.righttopcard{
+    position: absolute;
+    top: 30vh;
+    right: 9%;
+    background-color: orangered;
+    height: 29vh;
+    width: 15%;
+    border-radius: 5px;
+}
+.rightbottomcard{
+    position: absolute;
+    top: 60vh;
+    right: 9%;
+    background: url(https://ke.jumia.is/cms/2021/Personalization/PrimeCustomer/BF/KE_Cross_PrimeCustomer_Generic_1221_BF-under-5K.gif);
+    background-size: contain;
+    height: 29vh;
+    width: 15%;
+    border-radius: 5px;
+}
+@media (max-width: 952px){
+    .leftcard{
+        visibility: hidden;
+    }
+    .righttopcard{
+        visibility: hidden;
+    }
+    .rightbottomcard{
+        visibility: hidden;
+    }
+}
+.introcategory{
+    position: absolute;
+    top: 93vh;
+    left: 9%;
+    width: 82%;
+    height: 35vh;
+    padding: 1.5% 5%;
+    background-color: lightgrey;
+    border-radius: 5px;
+    display: inline-flex;
+}
+#childcategory{
+    margin: 0 5px;
+}
